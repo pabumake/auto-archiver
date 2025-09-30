@@ -1,0 +1,16 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Build output
+main.js
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Obsidian local state (never commit)
+.obsidian/
+data.json

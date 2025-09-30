@@ -1,0 +1,17 @@
+{
+  "name": "auto-archiver",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "esbuild": "^0.25.10"
+  },
+  "scripts": {
+    "build": "esbuild src/main.ts --bundle --platform=node --external:obsidian --format=cjs --outfile=main.js",
+    "dev": "npm run build -- --watch"
+  },
+  "description": "Automatically archive/unarchive notes based on frontmatter properties **or** tags, while preserving folder structure under an Archive/ root.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

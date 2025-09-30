@@ -1,0 +1,10 @@
+{
+  "id": "auto-archiver",
+  "name": "Auto Archiver",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "auto archiver (Frontmatter & Text), automatically move notes to Archive/… etc. based on frontmatter properties or tags; also unarchives when conditions are no longer met.",
+  "author": "pabumake",
+  "authorUrl": "https://github.com/pabumake/auto-archiver",
+  "isDesktopOnly": true
+}

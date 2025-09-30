@@ -160,7 +160,7 @@ Open **Settings → Community plugins → Auto Archiver**:
 * **Assets in the same folder** (images/PDFs) are **not** moved automatically with the note. Obsidian’s renamer will keep links updated, but assets stay put.
 * Case sensitivity for properties/tags is handled internally (we normalize).
 * Very rapid edits can trigger multiple checks; the plugin already debounces lightly.
-* Mobile: supported (no Node-only APIs). If you use very large vaults, prefer manual scans on mobile.
+* Mobile: in theory supported (no Node-only APIs), but disabled since I had issues with my whole vault shifting. Disabled for now, maybe adding it back in a later release.
 
 ---
 
@@ -187,10 +187,7 @@ npm run build
 
 ## Roadmap
 
-* Optional: move/restore **sibling assets** with the note
-* Per-property **value matchers** (e.g., `Status: archived`, not just truthy)
-* Rule testing panel (preview what would move)
-* More granular event controls (save-only, metadata-only)
+* Mobile Support
 
 ---
 
@@ -209,4 +206,4 @@ This plugin was ideated by me and **co-created with ChatGPT** (model: *GPT-5 Thi
 
 ## License
 
-File: [LICENSE](LICENSE)
+[MIT LICENSE](LICENSE)
